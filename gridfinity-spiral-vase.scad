@@ -19,27 +19,27 @@ type = 0; // [0:bin, 1:base]
 
 /* [Printer Settings] */
 // extrusion width (walls will be twice this size)
-nozzle = 0.6; 
+nozzle = 0.5; 
 // slicer layer size
-layer = 0.35;
+layer = 0.2;
 // number of base layers on build plate 
-bottom_layer = 3;
+bottom_layer = 2;
 
 /* [General Settings] */
 // number of bases along x-axis 
-gridx = 1;
+gridx = 3;
 // number of bases along y-axis  
 gridy = 1;
 // bin height. See bin height information and "gridz_define" below. 
-gridz = 6;  
+gridz = 4;  
 // base unit
 length = 42;
 // number of compartments along x-axis
-n_divx = 2;
+n_divx = 6;
 
 /* [Toggles] */
 // toggle holes on the base for magnet
-enable_holes = true; 
+enable_holes = false; 
 // round up the bin height to match the closest 7mm unit
 enable_zsnap = false; 
 // toggle the lip on the top of the bin that allows stacking
@@ -57,10 +57,10 @@ enable_pinch = true;
 // determine what the variable "gridz" applies to based on your use case
 gridz_define = 0; // [0:gridz is the height of bins in units of 7mm increments - Zack's method,1:gridz is the internal height in millimeters, 2:gridz is the overall external height of the bin in millimeters]
 // how tabs are implemented
-style_tab = 0; // [0:continuous, 1:broken, 2:auto, 3:right, 4:center, 5:left, 6:none]
+style_tab = 6; // [0:continuous, 1:broken, 2:auto, 3:right, 4:center, 5:left, 6:none]
 // where to put X cutouts for attaching bases
 // selecting none will also disable crosses on bases
-style_base = 0; // [0:all, 1:corners, 2:edges, 3:auto, 4:none]
+style_base = 4; // [0:all, 1:corners, 2:edges, 3:auto, 4:none]
    
 // tab angle
 a_tab = 40;      
@@ -68,7 +68,7 @@ a_tab = 40;
 
 // ===== IMPLEMENTATION ===== //
 
-color("tomato")
+color("white")
 if (type != 0) gridfinityBaseVase(); // Generate a single base
 else gridfinityVase(); // Generate the bin   
 
@@ -144,7 +144,7 @@ module gridfinityVase() {
         translate([0,0,1.5*d_height])
         cube([gridx*length,gridy*length,d_height], center=true);
 
-        block_x();
+        //block_x();
         block_inset();
         if (enable_pinch)
         block_pinch();
@@ -178,13 +178,13 @@ module gridfinityBaseVase() {
     }
     
     pattern_circular(4)
-    intersection() {
-        rotate([0,0,45])
-        translate([-nozzle,3,-h_base+d_bottom+0.01])
-        cube([nozzle*2,length*gridx,d_height+d_bottom*2]);
-        
-        block_base_blank(nozzle*4-0.1);
-    }
+    //intersection() {
+    //    rotate([0,0,45])
+    //    translate([-nozzle,3,-h_base+d_bottom+0.01])
+    //    cube([nozzle*2,length*gridx,d_height+d_bottom*2]);
+    //    
+    //    block_base_blank(nozzle*4-0.1);
+    //}
     if (enable_holes)
     pattern_circular(4)
     block_magnet_blank(nozzle);

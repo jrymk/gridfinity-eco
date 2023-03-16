@@ -16,19 +16,19 @@ $fs = 0.25;
 
 /* [General Settings] */
 // number of bases along x-axis
-gridx = 3;  
+gridx = 2;  
 // number of bases along y-axis   
-gridy = 3;  
+gridy = 2;  
 // bin height. See bin height information and "gridz_define" below.  
-gridz = 6;   
+gridz = 3;   
 // base unit
 length = 42;
 
 /* [Compartments] */
 // number of X Divisions
-divx = 2;
+divx = 4;
 // number of y Divisions
-divy = 2;
+divy = 1;
 
 /* [Toggles] */
 // snap gridz height to nearest 7mm increment
@@ -40,7 +40,7 @@ style_lip = 0; //[0: Regular lip, 1:remove lip subtractively, 2: remove lip and 
 // determine what the variable "gridz" applies to based on your use case
 gridz_define = 0; // [0:gridz is the height of bins in units of 7mm increments - Zack's method,1:gridz is the internal height in millimeters, 2:gridz is the overall external height of the bin in millimeters]
 // the type of tabs
-style_tab = 1; //[0:Full,1:Auto,2:Left,3:Center,4:Right,5:None]
+style_tab = 5; //[0:Full,1:Auto,2:Left,3:Center,4:Right,5:None]
 
 /* [Base] */
 style_hole = 0; // [0:no holes, 1:magnet holes only, 2: magnet and screw holes - no printable slit, 3: magnet and screw holes - printable slit]
