@@ -1,4 +1,4 @@
-#Gridfinity Eco
+# Gridfinity Eco
 
 My repository for my cost-aware Gridfinity setup
 
