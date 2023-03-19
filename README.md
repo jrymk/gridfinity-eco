@@ -9,8 +9,8 @@ My repository for my cost-aware Gridfinity setup
   - 0b: **Improved Frames** by [PotatoCheese on Thangs](https://thangs.com/designer/christian.wilhelmsen2012/3d-model/Gridfinity%2520slightly%2520improved%2520frame%2520(no%2520rocking)-64672): A slightly improved version of the gridfinity frame to remove boxes rocking
   - 0c: **Improved Frames 5**: My modified version for sizes of 5 (4x5, 5x5, 5x6)
 - 1: Bins
-  - 1a: **Split Vase Bins**: Default unmodified bins generated with [gridfinity-rebuilt-openscad](https://github.com/kennetek/gridfinity-rebuilt-openscad). Require gluing bases to the bins, supports bins bigger than 1x1, two walls thick in most places but 1 wall at the lip and scoop chamfer, so you want to print in thicker extrusion width, which makes walls about 1mm thick, but the lip is still too weak [print settings](#Print Settings)
-  - 1b: [**Single Piece Vase Bins**](#Single Piece Vase Bins): Single wall 1x1 bins with integrated base (bottom profile to go into baseplates) [print settings](#Print Settings)
+  - 1a: **Split Vase Bins**: Default unmodified bins generated with [gridfinity-rebuilt-openscad](https://github.com/kennetek/gridfinity-rebuilt-openscad). Require gluing bases to the bins, supports bins bigger than 1x1, two walls thick in most places but 1 wall at the lip and scoop chamfer, so you want to print in thicker extrusion width, which makes walls about 1mm thick, but the lip is still too weak [print settings](#print-settings)
+  - 1b: [**Single Piece Vase Bins**](#single-piece-vase-bins): Single wall 1x1 bins with integrated base (bottom profile to go into baseplates) [print settings](#print-settings)
   - 1c: **EcoBins**: *coming soon* Single wall bins (so you print in around 0.55mm) but double thickness at the lip to provide more strength when used with the ClickPlates
   
   
@@ -21,7 +21,9 @@ This is a baseplate design that holds on to **any** Gridfinity block without mag
 <img src="https://user-images.githubusercontent.com/39593345/226156722-67b55c48-16d0-44a8-a453-14771dd12ff6.png" width="500" />
 
 220mmx220mm build area can hold a 5x5 grid with borders.\
-To spilt it up, cut on the edge. For example if the build area is 220mmx220mm, and you want a 8x5 grid, print a 5x5 grid with one edge chopped off 21mm (half cell) + 4mm (border), another one the same thing but with 4x5 grid.
+To spilt it up, cut on the edge. For example if the build area is 220mmx220mm, and you want a 8x5 grid, print a 5x5 grid with one edge chopped off 21mm (half cell) + 4mm (border), another one the same thing but with 4x5 grid.\
+You can not split it on the along the edge like other designes, or else the corners will fall off 🙂\
+The outer edges are not smooth but instead has the same design as the inner edges, not for consistency, but purely because I don't want to touch Fusion 360 any longer than I have to, also making it parametric... maybe later.
 
 Remember to dry your filament or it's going to string
 
