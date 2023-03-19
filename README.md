@@ -13,9 +13,9 @@ My single-walled design uses about 56% filament compared to its double-walled co
 They are also strong enough that I didn't need, for example crosses in other vase bin designes.
 
 
-## Click Frame
+## Click Plate
 
-This is a frame design that holds on to **any** Gridfinity without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical.
+This is a baseplate design that holds on to **any** Gridfinity block without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical. Also you don't have to worry about the magnet holes hoverhangs, or the extra thickness and space wasted on the bins.
 
 <img src="https://user-images.githubusercontent.com/39593345/226156722-67b55c48-16d0-44a8-a453-14771dd12ff6.png" width="500" />
 
