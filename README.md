@@ -2,8 +2,35 @@
 
 My repository for my cost-aware Gridfinity setup
 
-The profiles I use is based on the vase bins in [gridfinity-rebuilt-openscad](https://github.com/kennetek/gridfinity-rebuilt-openscad).
+## Table of Contents
 
+- 0: Base Plates
+  - 0a: [**ClickPlates**](#clickplates) :star: : A baseplate design that secure **any** Gridfinity block without magnets. No need to buy expensive neodymium magnets, print thick bin bases to hold the magnets, and worry about overhangs
+  - 0b: **Improved Frames** by [PotatoCheese on Thangs](https://thangs.com/designer/christian.wilhelmsen2012/3d-model/Gridfinity%2520slightly%2520improved%2520frame%2520(no%2520rocking)-64672): A slightly improved version of the gridfinity frame to remove boxes rocking
+  - 0c: **Improved Frames 5**: My modified version for sizes of 5 (4x5, 5x5, 5x6)
+- 1: Bins
+  - 1a: **Split Vase Bins**: Default unmodified bins generated with [gridfinity-rebuilt-openscad](https://github.com/kennetek/gridfinity-rebuilt-openscad). Require gluing bases to the bins, supports bins bigger than 1x1, two walls thick in most places but 1 wall at the lip and scoop chamfer, so you want to print in thicker extrusion width, which makes walls about 1mm thick, but the lip is still too weak [print settings](#Print Settings)
+  - 1b: [**Single Piece Vase Bins**](#Single Piece Vase Bins): Single wall 1x1 bins with integrated base (bottom profile to go into baseplates) [print settings](#Print Settings)
+  - 1c: **EcoBins**: *coming soon* Single wall bins (so you print in around 0.55mm) but double thickness at the lip to provide more strength when used with the ClickPlates
+  
+  
+## ClickPlates
+
+This is a baseplate design that holds on to **any** Gridfinity block without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical. Also you don't have to worry about the magnet holes hoverhangs, or the extra thickness and space wasted on the bins.
+
+<img src="https://user-images.githubusercontent.com/39593345/226156722-67b55c48-16d0-44a8-a453-14771dd12ff6.png" width="500" />
+
+220mmx220mm build area can hold a 5x5 grid with borders.\
+To spilt it up, cut on the edge. For example if the build area is 220mmx220mm, and you want a 8x5 grid, print a 5x5 grid with one edge chopped off 21mm (half cell) + 4mm (border), another one the same thing but with 4x5 grid.
+
+Remember to dry your filament or it's going to string
+
+<img src="https://user-images.githubusercontent.com/39593345/226173961-262482f6-6f89-47f9-8579-4599ec5524f6.jpg" width="500" />
+<img src="https://user-images.githubusercontent.com/39593345/226173975-55ca26f8-b5ba-410c-adfd-95289222167f.jpg" width="500" />
+
+[Video on Voidstar Lab Discord Server](https://discord.com/channels/771523295387582514/966418807872716880/1086912834585239622)
+
+## Single Piece Vase Bins
 I've added single wall vase mode 1x1 bins. 1x1 bins are great for storing tons of variety of things, and it will benefit a lot from cost cutdown. Each 1x1x4 bin weights 3.54g, or 3.9 US cents to print using eSUN ePLA Matte filament at 11.2 USD per spool. These are printed in 0.55mm extrusion width, with 0.2mm layer height.
 
 The double-walled design in the OpenSCAD model has a few problems that prevents us from just printing it in thin extrusion width to achieve the same wall thickness. Yes, they allow divider bins (which I might implement in my version), but the main issue is that there is many places where it is only one wall thick, like the lip for stacking and the scoop chamfer. I had to go with 0.5mm extrusion width to achieve strong enough results, which makes all the other walls 1mm thick, a huge waste of material.
@@ -12,12 +39,4 @@ My single-walled design uses about 56% filament compared to its double-walled co
 
 They are also strong enough that I didn't need, for example crosses in other vase bin designes.
 
-
-## Click Plate
-
-This is a baseplate design that holds on to **any** Gridfinity block without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical. Also you don't have to worry about the magnet holes hoverhangs, or the extra thickness and space wasted on the bins.
-
-<img src="https://user-images.githubusercontent.com/39593345/226156722-67b55c48-16d0-44a8-a453-14771dd12ff6.png" width="500" />
-
-220mmx220mm build area can hold a 5x5 grid with borders.\
-To spilt it up, cut on the edge. For example if the build area is 220mmx220mm, and you want a 8x5 grid, print a 5x5 grid with one edge chopped off 21mm (half cell) + 4mm (border), another one the same thing but with 4x5 grid.
+(The top lip is a bit too weak when used with the ClickPlates, so a new revision with double walled lip (and perhaps label holder?) will come in the future)
