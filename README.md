@@ -1,53 +1,13 @@
-# Gridfinity Rebuilt in OpenSCAD 
+# Gridfinity Eco
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+My repository for my cost-aware Gridfinity setup
 
-A ground-up port (with a few extra features) of the stock [gridfinity](https://www.youtube.com/watch?v=ra_9zU-mnl8) bins in OpenSCAD. Open to feedback, because I could not feasibly test all combinations of bins. I tried my best to exactly match the original gridfinity dimensions, but some of the geometry is slightly incorrect (mainly fillets). However, I think they are negligible differences, and will not appear in the printed model. 
+The profiles I use is based on the vase bins in [gridfinity-rebuilt-openscad](https://github.com/kennetek/gridfinity-rebuilt-openscad).
 
-Full documentation can be found at the project's [website](https://kennetek.github.io/gridfinity-rebuilt-openscad/).
+I've added single wall vase mode 1x1 bins. 1x1 bins are great for storing tons of variety of things, and it will benefit a lot from cost cutdown. Each 1x1x4 bin weights 3.54g, or 3.9 US cents to print using eSUN ePLA Matte filament at 11.2 USD per spool. These are printed in 0.55mm extrusion width, with 0.2mm layer height.
 
-The project can also be found on [Printables](https://www.printables.com/model/274917-gridfinity-rebuilt-in-openscad) if you want to support the project.
+The double-walled design in the OpenSCAD model has a few problems that prevents us from just printing it in thin extrusion width to achieve the same wall thickness. Yes, they allow divider bins (which I might implement in my version), but the main issue is that there is many places where it is only one wall thick, like the lip for stacking and the scoop chamfer. I had to go with 0.5mm extrusion width to achieve strong enough results, which makes all the other walls 1mm thick, a huge waste of material.
 
-[<img src="./images/base_dimension.gif" width="320">]()
-[<img src="./images/compartment_dimension.gif" width="320">]()
-[<img src="./images/height_dimension.gif" width="320">]()
-[<img src="./images/tab_dimension.gif" width="320">]()
-[<img src="./images/holes_dimension.gif" width="320">]()
-[<img src="./images/custom_dimension.gif" width="320">]()
+My single-walled design uses about 56% filament compared to its double-walled counterpart. My bins are weaker, that's for sure, but these bins are not meant to be handled. They hold parts that I don't use often, and they aren't *that* delicate too. Also I don't need to print and glue in the bases separately, which can pretty annoying when you have hundreds of bins.
 
-## Features
-- any size of bin (width/length/height)
-- height by units, internal depth, or overall size
-- any number of compartments (along both X and Y axis)
-- togglable scoop
-- togglable tabs, split tabs, and tab alignment
-- togglable holes (with togglable supportless printing hole structures)
-- manual compartment construction (make the most wacky bins imaginable)
-- togglable lip (if you don't care for stackability)
-- dividing bases (if you want a 1.5 unit long bin, for instance)
-- removed material from bases to save filament
-- vase mode bins
-
-### Printable Holes
-The printable holes allow your slicer to bridge the gap inside the countersunk magnet hole (using the technique shown [here](https://www.youtube.com/watch?v=W8FbHTcB05w)) so that supports are not needed.
-
-[<img src="./images/slicer_holes.png" height="200">]()
-[<img src="./images/slicer_holes_top.png" height="200">]()
-
-## Recommendations
-For best results, use a version of OpenSCAD with the fast-csg feature. As of writing, this feature is only implemented in the [development snapshots](https://openscad.org/downloads.html). To enable the feature, go to Edit > Preferences > Features > fast-csg. On my computer, this sped up rendering from 10 minutes down to a couple of seconds, even for comically large bins.  
-
-## Enjoy!
-
-[<img src="./images/spin.gif" width="160">]()
-
-[Gridfinity](https://www.youtube.com/watch?v=ra_9zU-mnl8) by [Zack Freedman](https://www.youtube.com/c/ZackFreedman/about)
-
-This work is licensed under the same license as Gridfinity, being a 
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+They are also strong enough that I didn't need, for example crosses in other vase bin designes.
