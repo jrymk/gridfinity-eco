@@ -45,29 +45,29 @@ They are also strong enough that I didn't need, for example crosses in other vas
 ## Print Settings
 - Slicer: Prusa Slicer, usually latest alpha
 - Print settings:
-- Baseplates:
-  - Layer height: 0.2mm (0.15mm for ClickPlates)
-  - Perimeters: 2
-  - Solid layers: 3 top; 2 bottom
-  - Infill: 30% Grid
-  - Default extrusion width: 0.4mm
-    - First layer: 0.5mm
-    - Infill: 0.4mm
-    - Infill/Perimeters overlap: 40%
-- Double Walled Vases (1a)
-  - Layer height: 0.2mm
-  - Spiral Vase
-  - Solid layers: 2 bottom
-  - Default extrusion width: 0.5mm
-    - First layer: 0.5mm
-    - Infill/Perimeters overlap: 40%
-- Single Walled Vases (1b, 1c)
-  - Layer height: 0.2mm
-  - Spiral Vase
-  - Solid layers: 2 bottom
-  - Default extrusion width: 0.55mm
-    - First layer: 0.55mm
-    - Infill/Perimeters overlap: 40%
+  - Baseplates:
+    - Layer height: 0.2mm (0.15mm for ClickPlates)
+    - Perimeters: 2
+    - Solid layers: 3 top; 2 bottom
+    - Infill: 30% Grid
+    - Default extrusion width: 0.4mm
+      - First layer: 0.5mm
+      - Infill: 0.4mm
+      - Infill/Perimeters overlap: 40%
+  - Double Walled Vases (1a)
+    - Layer height: 0.2mm
+    - Spiral Vase
+    - Solid layers: 2 bottom
+    - Default extrusion width: 0.5mm
+      - First layer: 0.5mm
+      - Infill/Perimeters overlap: 40%
+  - Single Walled Vases (1b, 1c)
+    - Layer height: 0.2mm
+    - Spiral Vase
+    - Solid layers: 2 bottom
+    - Default extrusion width: 0.55mm
+      - First layer: 0.55mm
+      - Infill/Perimeters overlap: 40%
 - Printer: Creality Ender 5 S1 (running Klipper, with stock Creality 5S1 PEI build plate)
   - Speed: 500mm/s (Vases: 300mm/s)
   - Acceleration: 5000mm/s2 (Vases: 4000mm/s2)
