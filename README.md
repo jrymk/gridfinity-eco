@@ -40,3 +40,42 @@ My single-walled design uses about 56% filament compared to its double-walled co
 They are also strong enough that I didn't need, for example crosses in other vase bin designes.
 
 (The top lip is a bit too weak when used with the ClickPlates, so a new revision with double walled lip (and perhaps label holder?) will come in the future)
+
+
+## Print Settings
+- Slicer: Prusa Slicer, usually latest alpha
+- Print settings:
+- Baseplates:
+  - Layer height: 0.2mm (0.15mm for ClickPlates)
+  - Perimeters: 2
+  - Solid layers: 3 top; 2 bottom
+  - Infill: 30% Grid
+  - Default extrusion width: 0.4mm
+    - First layer: 0.5mm
+    - Infill: 0.4mm
+    - Infill/Perimeters overlap: 40%
+- Double Walled Vases (1a)
+  - Layer height: 0.2mm
+  - Spiral Vase
+  - Solid layers: 2 bottom
+  - Default extrusion width: 0.5mm
+    - First layer: 0.5mm
+    - Infill/Perimeters overlap: 40%
+- Single Walled Vases (1b, 1c)
+  - Layer height: 0.2mm
+  - Spiral Vase
+  - Solid layers: 2 bottom
+  - Default extrusion width: 0.55mm
+    - First layer: 0.55mm
+    - Infill/Perimeters overlap: 40%
+- Printer: Creality Ender 5 S1 (running Klipper, with stock Creality 5S1 PEI build plate)
+  - Speed: 500mm/s (Vases: 300mm/s)
+  - Acceleration: 5000mm/s2 (Vases: 4000mm/s2)
+  - Corner velocity: 20mm/s (Vases: 3mm/s)
+  - Retraction length: 0.7mm at 45mm/s
+  - Lift Z: 0.3mm
+- Filament: eSUN ePLA Matte (white)
+  - Nozzle temperature: 215 degrees Celcius
+  - Bed temperature: 60 degrees Celcius
+  - Fan speed: 100% on layer 2
+  - Minimum layer time: 2s
