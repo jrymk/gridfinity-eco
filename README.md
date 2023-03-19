@@ -11,3 +11,13 @@ The double-walled design in the OpenSCAD model has a few problems that prevents 
 My single-walled design uses about 56% filament compared to its double-walled counterpart. My bins are weaker, that's for sure, but these bins are not meant to be handled. They hold parts that I don't use often, and they aren't *that* delicate too. Also I don't need to print and glue in the bases separately, which can pretty annoying when you have hundreds of bins.
 
 They are also strong enough that I didn't need, for example crosses in other vase bin designes.
+
+
+## Click Frame
+
+This is a frame design that holds on to **any** Gridfinity without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical.
+
+<img src="https://user-images.githubusercontent.com/39593345/226156722-67b55c48-16d0-44a8-a453-14771dd12ff6.png" width="500" />
+
+220mmx220mm build area can hold a 5x5 grid with borders.\
+To spilt it up, cut on the edge. For example if the build area is 220mmx220mm, and you want a 8x5 grid, print a 5x5 grid with one edge chopped off 21mm (half cell) + 4mm (border), another one the same thing but with 4x5 grid.
