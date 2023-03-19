@@ -18,6 +18,21 @@ My repository for my cost-aware Gridfinity setup
 
 This is a baseplate design that holds on to **any** Gridfinity block without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical. Also you don't have to worry about the magnet holes hoverhangs, or the extra thickness and space wasted on the bins.
 
+---
+
+I will release at least two version:
+
+| Version | Description |
+| :-- | :-- |
+| gentle | Gently holds on your storage bins, prevents the bins from flying around when you touch them, and that's about it. You can easily move bins and snap them back. It will be tuned with my vase mode bins in mind, so you don't break them trying to click them into the grid |
+| strong | Holds on Gridfinity blocks, strong enough to use your tweezer, pliers holders etc. without worrying you'll tip it over |
+
+Currently the files located in the ClickPlates folder's root is `strong`, and v0 for `gentle`, although either of these will require more tuning.
+
+Either version is not all that suitable for vase bins here, unless you print at like 0.8mm extrusion width. (both single and double walled designs have only one wall for the lip for stacking, which is extremely weak, and you'll probably press from the top to snap the blocks in place, which smashes the lip and splits the layers)
+
+---
+
 <img src="https://user-images.githubusercontent.com/39593345/226156722-67b55c48-16d0-44a8-a453-14771dd12ff6.png" width="500" />
 
 220mmx220mm build area can hold a 5x5 grid with borders.\
