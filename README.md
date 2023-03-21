@@ -2,6 +2,9 @@
 
 My repository for my cost-aware Gridfinity setup
 
+### WAIT!
+ClickPlates still has some longevity issues, where the latches become loose after a block has been inserted for a few days. Maybe you should wait before printing one of these
+
 ## Table of Contents
 
 - 0: Base Plates
