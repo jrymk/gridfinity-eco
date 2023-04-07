@@ -3,7 +3,7 @@
 My repository for my cost-aware Gridfinity setup
 
 ### WAIT!
-ClickPlates still has some longevity issues, where the latches become loose after a block has been inserted for a few days. Maybe you should wait before printing one of these
+ClickPlates still has some longevity issues, where the latches become loose after a block has been inserted for a few days. Maybe you should wait before printing one of these (to be honest I think there's no way this will work with PLA. no matter the spring design, PLA's threshold for plastic deformation seems to be none), or maybe print it in PETG.
 
 ## Table of Contents
 
