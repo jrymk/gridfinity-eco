@@ -2,9 +2,6 @@
 
 My repository for my cost-aware Gridfinity setup
 
-### WAIT!
-ClickPlates still has some longevity issues, where the latches become loose after a block has been inserted for a few days. Maybe you should wait before printing one of these (to be honest I think there's no way this will work with PLA. no matter the spring design, PLA's threshold for plastic deformation seems to be none), or maybe print it in PETG.
-
 ## Table of Contents
 
 - 0: Base Plates
@@ -21,9 +18,19 @@ ClickPlates still has some longevity issues, where the latches become loose afte
 
 This is a baseplate design that holds on to **any** Gridfinity block without magnets. Magnets are quite expensive, and using 8 of them for each cell just doesn't seem economical. Also you don't have to worry about the magnet holes hoverhangs, or the extra thickness and space wasted on the bins.
 
+**DO NOT PRINT IN PLA** as it will creep and completely lose its springiness in a few days.
+
 ---
 
-I will release at least two version:
+### Remix by NoWarrenty on [Printables](https://www.printables.com/de/model/452675-gridfinity-clickplates-no-magnets-universally-comp)
+
+Additional features
+- Joinable with edge and corner connector pieces
+- Built-in screwholes
+- Comes with more sizes
+
+---
+I will release at least two version: (I won't be able to work on this in a few months though, so grab models from the Printables link above!)
 
 | Version | Description |
 | :-- | :-- |
@@ -42,8 +49,6 @@ Either version is not all that suitable for vase bins here, unless you print at 
 To spilt it up, cut on the edge. For example if the build area is 220mmx220mm, and you want a 8x5 grid, print a 5x5 grid with one edge chopped off 21mm (half cell) + 4mm (border), another one the same thing but with 4x5 grid.\
 You can not split it on the along the edge like other designes, or else the corners will fall off 🙂\
 The outer edges are not smooth but instead has the same design as the inner edges, not for consistency, but purely because I don't want to touch Fusion 360 any longer than I have to, also making it parametric... maybe later.
-
-Remember to dry your filament or it's going to string
 
 <img src="https://user-images.githubusercontent.com/39593345/226173961-262482f6-6f89-47f9-8579-4599ec5524f6.jpg" width="500" />
 <img src="https://user-images.githubusercontent.com/39593345/226173975-55ca26f8-b5ba-410c-adfd-95289222167f.jpg" width="500" />
