@@ -6,6 +6,10 @@ My repository for my cost-aware Gridfinity setup
 
 *Yes, no labels yet*
 
+Update: here are my labels
+
+![IMG_0126](https://github.com/jrymk/gridfinity-eco/assets/39593345/57973f81-f170-406c-afc4-702707b32c08)
+
 ### No magnets
 Innovative ClickPlates allow bins to be secured to their base plates without any magnets, which cut down costs by at least half.\
 Bins do not need to fill the entire base with plastic infill to leave space for magnets, which saves on plastic use. Even if you buy thousands of low grade neodymium magnets on Chinese websites, the costs still adds up.
@@ -47,7 +51,7 @@ Each kilo of matte PLA filament spool fits 95 1x1x6 bins, so with each spool cos
 ### Maximum parts access
 <img src="https://github.com/jrymk/gridfinity-eco/assets/39593345/62e9b2c1-2f17-4774-8942-3e4ead1fc6f0" width="500" />
 
-At least for 1x1 bins, the labels are just too big, and it is difficult to fit a finger and scoop around parts. The label height is reduced for more finger space. Also a solid slope with 60 degree overhang is used to print the label holder, instead of bridging from the original design by Masibu, to maximize printability and stability of the label holder.
+At least for 1x1 bins, the labels are just too big, and it is difficult to fit a finger and scoop around parts. The **label height is reduced for more finger space**. Also a solid slope with 60 degree overhang is used to print the label holder, instead of bridging from the original design by Masibu, to maximize printability and stability of the label holder.
 The bottoms of the bins are filled in with flat bases, so parts don't get stuck in the ridges. The scoop radius is kept, but radius is reduced so the bins can fit as much stuff as possible.
 
 Print time is not a top priority for these bins, so it doesn't use vase mode. My previous design of economic bins use vase mode, which is extremely lightweight, but it is quite fragile, and many of the bins didn't last long before cracking on the layer lines, especially when used with ClickPlates. The current design uses more than double of the filament, but is way more rigid, and is more flexible, with nice part scoops and label tabs. I can also easily fit as many bins as long as it fits on the build plate, instead of 4 with vase mode.
