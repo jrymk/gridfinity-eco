@@ -6,3 +6,4 @@ stl/
 batch/
 site/
 *.json
+**/MakerWorld/
