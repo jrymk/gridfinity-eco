@@ -4,6 +4,7 @@
 ### Rackfinity (Not Gridfinity, a new standard aimed for parts storage)
 [skip Rackfinity](#clickplates)
 
+<img src="https://github.com/jrymk/gridfinity-eco/assets/39593345/6e340887-ad02-494c-8f17-de4ce490dc7b" width="600" />
 <img src="https://github.com/jrymk/gridfinity-eco/assets/39593345/7c31a13f-2408-4986-8757-f98909c1cf7b" width="400" />
 
 I don't really like Gridfinity. 42mm is just too small for fingers, and for parts storage, a grid system is unnecessary, and here's why
